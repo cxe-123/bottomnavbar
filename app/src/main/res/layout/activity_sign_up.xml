@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/background_color"
+    android:fillViewport="true"
+    tools:layout_editor_absoluteX="1dp"
+    tools:layout_editor_absoluteY="1dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        tools:context=".remainedFile.SignUpActivity">
+
+        <TextView
+            android:id="@+id/signUpHeading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="44dp"
+            android:fontFamily="@font/sfuitext_heavy"
+            android:text="@string/signup"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.088"
+            app:layout_constraintStart_toEndOf="@id/logo"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@id/logo"
+            android:layout_width="103dp"
+            android:layout_height="105dp"
+            android:layout_marginTop="4dp"
+            android:contentDescription="@string/worklah"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/logotransparent" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:id="@+id/firstName"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="60dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/signUpHeading">
+
+            <EditText
+                android:id="@+id/signupFirstName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/first_name"
+                android:fontFamily="@font/sfuitext_medium"
+                android:importantForAutofill="no"
+                android:inputType="textPersonName"
+                tools:ignore="TextContrastCheck,TouchTargetSizeCheck" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:id="@+id/lastName"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="15dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/firstName">
+
+            <EditText
+                android:id="@+id/signupLastName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/last_name"
+                android:fontFamily="@font/sfuitext_medium"
+                android:importantForAutofill="no"
+                android:inputType="textPersonName"
+                tools:ignore="TextContrastCheck,TouchTargetSizeCheck" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <RadioGroup
+            android:id="@+id/genderGroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="40dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.283"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/lastName">
+
+            <RadioButton
+                android:id="@+id/male"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:minHeight="35dp"
+                android:checked="true"
+                android:background="@drawable/radio_group_selector"
+                android:button="@android:color/transparent"
+                android:text="@string/male"
+                android:fontFamily="@font/sfuitext_medium"
+                android:textAlignment="center"
+                tools:ignore="TouchTargetSizeCheck"
+                tools:layout_editor_absoluteX="217dp"
+                tools:layout_editor_absoluteY="566dp" />
+
+            <RadioButton
+                android:id="@+id/female"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:minHeight="35dp"
+                android:background="@drawable/radio_group_selector"
+                android:button="@android:color/transparent"
+                android:checked="false"
+                android:text="@string/female"
+                android:fontFamily="@font/sfuitext_medium"
+                android:textAlignment="center"
+                tools:ignore="TouchTargetSizeCheck"
+                tools:layout_editor_absoluteX="217dp"
+                tools:layout_editor_absoluteY="566dp" />
+        </RadioGroup>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:id="@+id/ic"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="15dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/genderGroup">
+
+            <EditText
+                android:id="@+id/signupIC"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/ic"
+                android:fontFamily="@font/sfuitext_medium"
+                android:importantForAutofill="no"
+                android:inputType="number"
+                tools:ignore="TextContrastCheck,TouchTargetSizeCheck" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:id="@+id/dateOfBirth"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="15dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/ic">
+
+            <EditText
+                android:id="@+id/signupDOB"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/date_of_birth"
+                android:fontFamily="@font/sfuitext_medium"
+                android:importantForAutofill="no"
+                android:drawableEnd="@drawable/calendar_icon"
+                android:inputType="date"
+                tools:ignore="TextContrastCheck,TouchTargetSizeCheck" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:id="@+id/email"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="15dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/dateOfBirth">
+
+            <EditText
+                android:id="@+id/signupEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/email"
+                android:fontFamily="@font/sfuitext_medium"
+                android:importantForAutofill="no"
+                android:inputType="textEmailAddress"
+                tools:ignore="TextContrastCheck,TouchTargetSizeCheck" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:id="@+id/contact"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="15dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/email">
+
+            <EditText
+                android:id="@+id/signupContactNo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/contact_no"
+                android:fontFamily="@font/sfuitext_medium"
+                android:importantForAutofill="no"
+                android:inputType="phone"
+                tools:ignore="TextContrastCheck,TouchTargetSizeCheck" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:id="@+id/address"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="15dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/contact">
+
+            <EditText
+                android:id="@+id/signupAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/address"
+                android:fontFamily="@font/sfuitext_medium"
+                android:importantForAutofill="no"
+                android:inputType="textPostalAddress"
+                tools:ignore="TextContrastCheck,TouchTargetSizeCheck" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:id="@+id/bankAccount"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="15dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/address">
+
+            <EditText
+                android:id="@+id/signupBankAcc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/bank_account"
+                android:fontFamily="@font/sfuitext_medium"
+                android:importantForAutofill="no"
+                android:inputType="number"
+                tools:ignore="TextContrastCheck,TouchTargetSizeCheck" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:id="@+id/password"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="15dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/bankAccount"
+            app:passwordToggleEnabled="true">
+
+            <EditText
+                android:id="@+id/signupPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/password"
+                android:fontFamily="@font/sfuitext_medium"
+                android:importantForAutofill="no"
+                android:inputType="textPassword"
+                tools:ignore="TextContrastCheck,TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:id="@+id/passwordConfirm"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="15dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/password"
+            app:passwordToggleEnabled="true">
+
+            <EditText
+                android:id="@+id/signupPasswordConfirmation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/reconfirm_password"
+                android:fontFamily="@font/sfuitext_medium"
+                android:importantForAutofill="no"
+                android:inputType="textPassword"
+                tools:ignore="TextContrastCheck,TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/signUpButton"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="48dp"
+            android:layout_marginBottom="90dp"
+            android:background="@drawable/round_corner_button"
+            android:text="@string/signup"
+            android:fontFamily="@font/sfuitext_semibold"
+            android:textColor="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.491"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/passwordConfirm"
+            tools:ignore="TextContrastCheck,UsingOnClickInXml"
+            />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

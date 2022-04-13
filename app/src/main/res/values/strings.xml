@@ -1,0 +1,211 @@
+<resources>
+    <!-- Home Page-->
+    <string name="app_name">WorkLah</string>
+    <string name="worklah">WorkLah</string>
+    <string name="login">Login</string>
+    <string name="signup">Signup</string>
+    <string name="all_in_one_service_for_youth_employment">ALL-IN-ONE Service For YOUTH Employment</string>
+    <!--  Login Page-->
+    <string name="email">Email</string>
+    <string name="example_email_com">example@email.com</string>
+    <string name="password">Password</string>
+    <string name="back"><u>Back</u></string>
+    <!--  Signup Page-->
+    <string name="upload_profile_image"><u>Upload profile image</u></string>
+    <string name="first_name">First Name</string>
+    <string name="enter_your_first_name_here"><i>Enter your first name here.</i></string>
+    <string name="last_name">Last Name</string>
+    <string name="enter_your_last_name_here"><i>Enter your last name here.</i></string>
+    <string name="gender">Gender</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="ic">IC</string>
+    <string name="etc_000000_00_0000"><i>etc: 000000-00-0000</i></string>
+    <string name="date_of_birth">Date of Birth (dd/mm/yyyy)</string>
+    <string name="etc_yyyy_mm_dd"><i>etc: YYYY/MM/DD</i></string>
+    <string name="etc_youremail_email_com"><i>etc: youremail@email.com</i></string>
+    <string name="contact_no">Contact No</string>
+    <string name="etc_010_0000000"><i>etc: 010-0000000</i></string>
+    <string name="please_key_in_current_living_address"><i>Please key in current living address.</i></string>
+    <string name="address">Address</string>
+    <string name="password_must_include_alphanumeric"><i>Password must include alphanumeric.</i></string>
+    <string name="reconfirm_password">Reconfirm Password</string>
+    <!--  Account Overview-->
+    <string name="account_overview">Account Overview</string>
+    <string name="user_last_name">Last</string>
+    <string name="comma">,</string>
+    <string name="user_first_name">First</string>
+    <string name="fake_phone">01x-xxxxxxx</string>
+    <string name="payment">Payment</string>
+    <string name="fake_ic">xxxxxx-xx-xxxx</string>
+    <string name="fake_dob">yyyy/mm/dd</string>
+    <string name="fake_address">Sample address</string>
+    <string name="job_history">Job History</string>
+    <string name="abc_sdn_bhd_accountant">ABDE Sdn Bhd - Assistant</string>
+    <string name="fake_bankacc">Sample Bank Acc</string>
+    <string name="bank_account">JuneBank Account</string>
+    <string name="edit">Edit</string>
+    <string name="insurance">Insurance</string>
+    <string name="accident_insurance_xinsurance_sdn_bhd">Accident Insurance @ XInsurance Sdn Bhd</string>
+    <string name="rm5000_00">Total: RM5000.00</string>
+    <string name="edit_information">Edit Information</string>
+    <string name="please_key_in_your_june_bank_account">Please key in your June Bank account.</string>
+    <string name="save">Save</string>
+    <string name="please_key_in_password_before_you_can_save">Key in password before you can
+        save.</string>
+    <!--  Job History-->
+    <string name="job_position1">Assistant</string>
+    <string name="job_position2">Sales</string>
+    <string name="job_position3">Driver</string>
+    <string name="job_position4">Front Desk</string>
+    <string name="job_position5">Library Assistant</string>
+    <string name="job_company1">ABDE Sdn Bhd</string>
+    <string name="job_company2">CDEF Sdn Bhd</string>
+    <string name="job_company3">GHEIF Sdn Bhd</string>
+    <string name="job_company4">XYZ Sdn Bhd</string>
+    <string name="job_company5">Starry Library</string>
+    <string name="job_company_address1">1213, Another Road, 12300 Butterworth, Pulau Pinang</string>
+    <string name="job_company_address2">1314, The Other Road, Setapak, 53300, Kuala Lumpur.</string>
+    <string name="job_company_address3">666, What Is This Road, 13400 Butterworth, Pulau Pinang.</string>
+    <string name="job_company_address4">999, Road to Heaven, 31400 Ipoh, Perak.</string>
+    <string name="job_company_address5">678, Road to Pass, 56100 Wilayah Persekutuan, Kuala Lumpur.</string>
+    <string name="job_salary1">RM2000.00</string>
+    <string name="job_salary2">RM1500.00</string>
+    <string name="job_salary3">RM300.00</string>
+    <string name="job_salary4">RM1500.00</string>
+    <string name="job_salary5">RM800.00</string>
+    <string name="job_working_period1">1 Sep 2021 - 31 Sep 2021</string>
+    <string name="job_working_period2">1 Aug 2021 - 31 Aug 2021</string>
+    <string name="job_working_period3">1 Jun 2021 - 14 Jun 2021</string>
+    <string name="job_working_period4">1 May 2021 - 31 May 2021</string>
+    <string name="job_working_period5">1 Feb 2021 - 28 Feb 2021</string>
+    <string name="job_position">Job Position</string>
+    <string name="company">Company</string>
+    <string name="job_alias_separator">\@</string>
+    <string name="company_address">Company Address</string>
+    <string name="rm999_00">RM999.00</string>
+    <string name="sample_address">Sample Address</string>
+    <string name="logout">Logout</string>
+    <string name="title_activity_home">HomeActivity</string>
+
+    <!-- Jordon -->
+    <string name="job_title1">Freelance Contract IT</string>
+    <string name="job_price_rm">RM</string>
+    <string name="job_price1">2500</string>
+    <string name="job_description1">Work with IT related project</string>
+    <string name="job_location1">A 17 Jln 21/11B Seksyen 21 Petaling Jaya</string>
+    <string name="job_start_date1">12 Feb</string>
+    <string name="job_date_line">\u0020-\u0020</string>
+    <string name="job_end_date1">12 Mac</string>
+    <string name="job_date_comma">,\u0020</string>
+    <string name="job_start_time1">10.00am</string>
+    <string name="job_end_time1">3.00pm</string>
+    <string name="job_overview1">1 month shift | RM16/hour</string>
+
+
+    <string name="job_title2">Freelance Video Editor</string>
+    <string name="job_price2">195</string>
+    <string name="job_description2">Edit videos and add effects/elements</string>
+    <string name="job_location2">8th Floor Kompleks Jln Sultan</string>
+    <string name="job_start_date2">15 Feb</string>
+    <string name="job_end_date2">17 Mac</string>
+    <string name="job_start_time2">1.00pm</string>
+    <string name="job_end_time2">5.00pm</string>
+    <string name="job_overview2">3 Shift | RM13/hour</string>
+
+
+    <string name="job_title3">Pickers and Packers</string>
+    <string name="job_price3">96</string>
+    <string name="job_description3">Helping to do warehousing work</string>
+    <string name="job_location3">Jalan Pasir Merah, New Pasir Puteh, 31650</string>
+    <string name="job_start_date3">20 Feb</string>
+    <string name="job_end_date3">20 Feb</string>
+    <string name="job_start_time3">10.00am</string>
+    <string name="job_end_time3">6.00pm</string>
+    <string name="job_overview3">1 Shift | RM12/hour</string>
+
+
+    <string name="job_title4">Event helper</string>
+    <string name="job_price4">120</string>
+    <string name="job_description4">Execution of various programmes and events</string>
+    <string name="job_location4">1st Floor, Bangunan IBEX, Jalan 222</string>
+    <string name="job_start_date4">1 April</string>
+    <string name="job_end_date4">1 April</string>
+    <string name="job_start_time4">8.00am</string>
+    <string name="job_end_time4">8.00pm</string>
+    <string name="job_overview4">1 Shift | RM10/hour</string>
+
+
+    <string name="job_description_text_1">Job Description</string>
+    <string name="requirement_text_1">Requirement</string>
+    <string name="requirement1">- Gender : Any \n- At least Diploma in IT or other relevant subject \n- Fresh Graduates are encouraged to apply \n- Basic coding skill and database skill \n- Interview Method : Phone Interview</string>
+    <string name="location_and_time_text_1">Location and Time</string>
+    <string name="poster_name_1">Jason Lee</string>
+
+    <string name="job_description_text_2">Job Description</string>
+    <string name="requirement_text_2">Requirement</string>
+    <string name="requirement2">- Gender : Any \n- At least Diploma in film studies or related field \n- Fresh Graduates are encouraged to apply \n- Ability to work to a tight schedule \n- Familiarity with 3D composition \n- Creative and artistic skills</string>
+    <string name="location_and_time_text_2">Location and Time</string>
+    <string name="poster_name_2">Martin Wong</string>
+
+    <string name="job_description_text_3">Job Description</string>
+    <string name="requirement_text_3">Requirement</string>
+    <string name="requirement3">- Gender : Male \n- Age : 18 and above \n- Proficient organizational skills \n- Excellent teamwork skills \n- Ability to read and understand delivery orders \n- Follow safe work practices and procedures</string>
+    <string name="location_and_time_text_3">Location and Time</string>
+    <string name="poster_name_3">Jennifer Ying</string>
+
+    <string name="job_description_text_4">Job Description</string>
+    <string name="requirement_text_4">Requirement</string>
+    <string name="requirement4">- Gender : Any \n- Age : 18 and above \n- Strong communication and interpersonal skills \n- Excellent teamwork skills \n- No experience required \n- Excellent multi-tasking abilities</string>
+    <string name="location_and_time_text_4">Location and Time</string>
+    <string name="poster_name_4">Peter Parker</string>
+    <string name="p_name">Jason Lee</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="claim">CLAIM</string>
+    <string name="people1">TODO</string>
+    <string name="back1">TODO</string>
+    <string name="chat">TODO</string>
+    <string name="call">TODO</string>
+    <string name="write_a_message">Write a message</string>
+    <string name="back2">TODO</string>
+    <string name="people2">TODO</string>
+    <string name="send">TODO</string>
+    <string name="this_is_a_message">This is a Message</string>
+    <string name="this_is_receive_message">This is receive message</string>
+    <string name="title_activity_chat">ChatActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="job_tracking">Job Tracking</string>
+    <string name="job_name">Job name</string>
+    <string name="job_salary">Job salary</string>
+    <string name="start">Start</string>
+    <string name="cancel">Cancel</string>
+    <string name="rm">RM</string>
+    <string name="end_on">End on</string>
+    <string name="start_on">Start on</string>
+    <string name="start_on_date">Start on date</string>
+    <string name="end_on_date">End on date</string>
+    <string name="job_location">Job location</string>
+    <string name="started_on">Started on</string>
+    <string name="end">End</string>
+    <string name="cancelled_on_date">Cancelled on date</string>
+    <string name="cancelled_on">Cancelled on</string>
+    <string name="inbox">Inbox</string>
+    <string name="title_new">New</string>
+    <string name="earlier">Earlier</string>
+    <string name="mark_all_as_read">Mark all as read</string>
+    <string name="title">Title</string>
+    <string name="content">Content</string>
+    <string name="date">Date</string>
+    <string name="dash">-</string>
+</resources>
+
+
+

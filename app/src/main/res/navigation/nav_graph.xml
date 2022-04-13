@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.worklah.newFragment.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/jobFragment"
+        android:name="com.example.worklah.newFragment.JobFragment"
+        android:label="WorkFragment" />
+    <fragment
+        android:id="@+id/inboxFragment"
+        android:name="com.example.worklah.newFragment.InboxFragment"
+        android:label="InboxFragment" >
+        <action
+            android:id="@+id/action_inboxFragment_self"
+            app:destination="@id/inboxFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.example.worklah.newFragment.AccountOverviewFragment"
+        android:label="ProfileFragment" >
+        <action
+            android:id="@+id/action_profileFragment2_to_jobHistoryFragment"
+            app:destination="@id/jobHistoryFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/jobHistoryFragment"
+        android:name="com.example.worklah.newFragment.JobHistoryFragment"
+        android:label="fragment_job_history"
+        tools:layout="@layout/fragment_job_history" >
+        <action
+            android:id="@+id/action_jobHistoryFragment_to_profileFragment2"
+            app:destination="@id/profileFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/jobToStartFragment"
+        android:name="com.example.worklah.remainedFile.JobToStartFragment"
+        android:label="fragment_1"
+        tools:layout="@layout/fragment_job_to_start" />
+    <fragment
+        android:id="@+id/jobToEndFragment"
+        android:name="com.example.worklah.remainedFile.JobToEndFragment"
+        android:label="fragment_2"
+        tools:layout="@layout/fragment_job_to_end" />
+    <fragment
+        android:id="@+id/jobCancelledFragment"
+        android:name="com.example.worklah.remainedFile.JobCancelledFragment"
+        android:label="fragment_3"
+        tools:layout="@layout/fragment_job_cancelled" />
+</navigation>

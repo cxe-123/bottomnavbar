@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:backgroundTint="@color/secondary_color"
+        app:cardCornerRadius="15dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="12dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        >
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="4dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/first_job_image"
+                    android:layout_width="40dp"
+                    android:layout_height="32dp"
+                    android:layout_marginStart="5dp"
+                    android:importantForAccessibility="no"
+                    android:src="@drawable/job1" />
+
+                <TextView
+                    android:id="@+id/first_job"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/sfuitext_semibold"
+                    android:text="@string/job_title1"
+                    android:textColor="@color/black"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:id="@+id/first_job_price_rm"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="0.1"
+                    android:fontFamily="@font/sfuitext_heavyitalic"
+                    android:text="@string/job_price_rm"
+                    android:textColor="@color/black"
+                    android:textSize="17sp" />
+
+                <TextView
+                    android:id="@+id/first_job_price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="0.1"
+                    android:fontFamily="@font/sfuitext_heavyitalic"
+                    android:text="@string/job_price1"
+                    android:textColor="@color/black"
+                    android:textSize="17sp" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/dotted_line"
+                android:layout_width="match_parent"
+                android:layout_height="7dp"
+                android:importantForAccessibility="no"
+                android:layerType="software"
+                android:src="@drawable/dotted" />
+
+            <TextView
+                android:id="@+id/first_job_description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="19dp"
+                android:layout_marginTop="3dp"
+                android:fontFamily="@font/sfuitext_regular"
+                android:text="@string/job_description1"
+                android:textColor="@color/black"
+                android:textSize="13sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp">
+
+                <ImageView
+                    android:id="@+id/location_image"
+                    android:layout_width="wrap_content"
+                    android:layout_height="15dp"
+                    android:layout_marginStart="20dp"
+                    android:importantForAccessibility="no"
+                    android:src="@drawable/ic_logo" />
+
+                <TextView
+                    android:id="@+id/job_location"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/sfuitext_bold"
+                    android:text="@string/job_location1"
+                    android:textColor="@color/black"
+                    android:textSize="11sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp">
+
+                <ImageView
+                    android:id="@+id/time_image"
+                    android:layout_width="wrap_content"
+                    android:layout_height="15dp"
+                    android:layout_marginStart="20dp"
+                    android:importantForAccessibility="no"
+                    android:src="@drawable/ic_time" />
+
+                <TextView
+                    android:id="@+id/job_start_date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/sfuitext_bold"
+                    android:text="@string/job_start_date1"
+                    android:textColor="@color/black"
+                    android:textSize="11sp" />
+
+                <TextView
+                    android:id="@+id/job_date_dash1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/sfuitext_bold"
+                    android:text="@string/job_date_line"
+                    android:textColor="@color/black"
+                    android:textSize="11sp" />
+
+                <TextView
+                    android:id="@+id/job_end_date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/sfuitext_bold"
+                    android:text="@string/job_end_date1"
+                    android:textColor="@color/black"
+                    android:textSize="11sp" />
+
+                <TextView
+                    android:id="@+id/job_date_comma"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/sfuitext_bold"
+                    android:text="@string/job_date_comma"
+                    android:textColor="@color/black"
+                    android:textSize="11sp" />
+
+                <TextView
+                    android:id="@+id/job_start_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/sfuitext_bold"
+                    android:text="@string/job_start_time1"
+                    android:textColor="@color/black"
+                    android:textSize="11sp" />
+
+                <TextView
+                    android:id="@+id/job_date_dash2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/sfuitext_bold"
+                    android:text="@string/job_date_line"
+                    android:textColor="@color/black"
+                    android:textSize="11sp" />
+
+                <TextView
+                    android:id="@+id/job_end_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/sfuitext_bold"
+                    android:text="@string/job_end_time1"
+                    android:textColor="@color/black"
+                    android:textSize="11sp" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/job_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="40dp"
+                android:fontFamily="@font/sfuitext_medium"
+                android:text="@string/job_overview1"
+                android:textColor="@color/black"
+                android:textSize="11sp" />
+        </LinearLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+
+

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="list_item_job_name" type="id" />
+    <item name="list_item_job_salary" type="id" />
+    <item name="list_item_job_location" type="id" />
+    <item name="list_item_job_end_date" type="id" />
+    <item name="list_item_job_start_date" type="id" />
+    <item name="list_item_started_on" type="id" />
+    <item name="list_item_end_on" type="id" />
+    <item name="list_item_rm" type="id" />
+    <item name="list_item_button_cancel" type="id" />
+    <item name="list_item_button_start" type="id" />
+    <item name="list_item_button_end" type="id" />
+</resources>

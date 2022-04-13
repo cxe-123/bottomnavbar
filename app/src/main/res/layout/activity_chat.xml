@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_color"
+    tools:context=".remainedFile.ChatActivity">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/recyclerview_chat"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@color/secondary_color">
+
+        <ImageView
+            android:id="@+id/back_button"
+            android:layout_width="55dp"
+            android:layout_height="25dp"
+            android:layout_marginStart="6dp"
+            android:layout_marginTop="14dp"
+            android:src="@drawable/ic_back"
+            android:contentDescription="@string/back2" />
+
+        <ImageView
+            android:layout_width="48dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="0dp"
+            android:src="@drawable/ic_person"
+            android:contentDescription="@string/people2" />
+
+        <TextView
+            android:id="@+id/poster_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="6dp"
+            android:layout_marginTop="9dp"
+            android:fontFamily="@font/sfuitext_semibold"
+            android:text="@string/p_name"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/text_chat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@drawable/edit_text_border"
+        android:hint="@string/write_a_message"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:padding="9dp"
+        android:textColor="@color/black"
+        android:textColorHint="#546E7A"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/send_button_chat"
+        app:layout_constraintHorizontal_bias="0.727"
+        app:layout_constraintStart_toStartOf="parent"
+        android:autofillHints="" />
+
+    <ImageView
+        android:id="@+id/send_button_chat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:paddingBottom="10dp"
+        android:paddingEnd="2dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:src="@drawable/ic_send"
+        android:contentDescription="@string/send" />
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerview_chat"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="55dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/text_chat"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

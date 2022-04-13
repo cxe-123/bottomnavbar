@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "730141535177",
+    "firebase_url": "https://worklah-e9bb3-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "worklah-e9bb3",
+    "storage_bucket": "worklah-e9bb3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:730141535177:android:cb9e7cfbbadeb3b0c29618",
+        "android_client_info": {
+          "package_name": "com.example.worklah"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "730141535177-dp11h5jbf0627uivud3qhlu14rpvnf0k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.worklah",
+            "certificate_hash": "f9fcb822ede3f81969d301e7cd1d164b39bfb42b"
+          }
+        },
+        {
+          "client_id": "730141535177-htk6vp3376i7gr5617jk1h618sum5t25.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCr1zY8mpLFJqenpUv76pUQ1O8ek9AXRro"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "730141535177-htk6vp3376i7gr5617jk1h618sum5t25.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
