@@ -31,7 +31,7 @@
     <string name="password_must_include_alphanumeric"><i>Password must include alphanumeric.</i></string>
     <string name="reconfirm_password">Reconfirm Password</string>
     <!--  Account Overview-->
-    <string name="account_overview">Account Overview</string>
+    <string name="account_overview">Profile</string>
     <string name="user_last_name">Last</string>
     <string name="comma">,</string>
     <string name="user_first_name">First</string>
